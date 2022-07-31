@@ -10,14 +10,14 @@ function Contact() {
             <Box >
                 <Typography sx={{ padding: '1.5em 0 0.5em 0', fontWeight: 'bold', fontSize: 'h2.fontSize', textAlign: 'center' }}>Contact Me</Typography>
             </Box>
-            <Box sx={{ textAlign: 'center', margin: '1em' }}>
-                <Typography sx={{ fontSize: 28 }}><PhoneIcon /> +1(438)979-6172</Typography>
+            <Box sx={{ textAlign: 'center', margin: '2%' }}>
+                <Typography sx={{ fontSize: '1.5em' }}><PhoneIcon /> +1(438)979-6172</Typography>
             </Box>
-            <Box sx={{ textAlign: 'center', margin: '1em' }}>
-                <Typography sx={{ fontSize: 28 }}><EmailIcon /> devparmar22121@gmail.com</Typography>
+            <Box sx={{ textAlign: 'center', margin: '2%', overflow: 'hidden' }}>
+                <Typography sx={{ fontSize: '1.5em' }}><EmailIcon />devparmar22121@gmail.com</Typography>
             </Box>
 
-            <Box sx={{ textAlign: 'center', padding: '2em' }} >
+            <Box sx={{ textAlign: 'center', padding: '2%' }} >
                 <Button onClick={() => window.location = 'mailto:devparmar22121@gmail.com'} variant='contained'><Typography sx={{ fontSize: 'h5.fontSize' }}>Send me an Email</Typography></Button>
             </Box>
         </Fragment>
