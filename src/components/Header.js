@@ -10,23 +10,27 @@ function Header() {
 
     const sty = () => {
         return ({
-            width: '2.5em',
-            height: '2.5em',
-
-        }
-
-        )
+            width: '3em',
+            height: '3em',
+            color: '#fff'
+        })
     }
+
+    const the = () => {
+        return ({
+            textAlign: 'center',
+            padding: '5%',
+            margin: ' 2% 7%'
+        })
+    }
+
     return (
         <Fragment>
-            <Box sx={{ backgroundColor: '#9c27b0', display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }} >
-                <Box sx={{ padding: '2% 0 5% 0' }}>
-                    <Avatar src='profile.jpg' alt='Dev Parmar' sx={{ width: '80%', height: '100%', border: '3px solid #e0e0e0', margin: 'auto' }} />
-                </Box>
-                <Box >
-                    <Paper sx={{ paddingX: '1em', marginY: '1em' }}><Typography sx={{ fontSize: 'h2.fontSize' }}>Hi, I'm <span style={{ color: '#ce93d8' }}>Dev Parmar</span>.</Typography></Paper>
-                    <Paper sx={{ paddingX: '1em', marginY: '1em' }}><Typography sx={{ fontSize: 'h4.fontSize' }}>A Web Developer.</Typography></Paper>
-                    <Paper sx={{ paddingX: '1em', marginY: '1em' }}>Hello</Paper>
+            <Box sx={{ backgroundColor: '#9c27b0', display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }} >
+                <Box sx={{ margin: '5%' }}>
+                    <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
+                        <Avatar src='profile.jpg' alt='Dev Parmar' sx={{ width: '80%', height: '100%', border: '3px solid #e0e0e0' }} />
+                    </Box>
                     <Box sx={{ display: 'flex', justifyContent: 'space-around', paddingY: '5%' }}>
                         <IconButton href='https://github.com/Dev-Parmar' target='_blank' sx={{
                             "&:hover": {
@@ -47,10 +51,19 @@ function Header() {
                             }
                         }}><InstagramIcon sx={sty} /></IconButton>
                     </Box>
-                    <Box sx={{ textAlign: 'center', padding: '5% 0', marginBottom: '20%' }} >
-                        <Button href='Resume.pdf' target='_blank' variant='contained' color='info' sx={{ margin: '0  10%' }} download> Download Resume!
+                    <Box sx={{ textAlign: 'center', padding: '3% 0' }} >
+                        <Button href='Resume.pdf' target='_blank' variant='contained' color='info' sx={{ fontSize: '2em', padding: '5%' }} download> Download Resume!
                             <DownloadIcon sx={{ width: '2em', height: '2em' }} /></Button>
                     </Box>
+
+                </Box>
+                <Box sx={{ width: '50em' }}>
+                    <Box sx={{ padding: '20% 0', display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
+                        <Paper sx={the} elevation={5}><Typography sx={{ fontSize: 'h3.fontSize' }}>Hello, I'm <span style={{ color: '#ce93d8' }}>Dev Parmar</span>.</Typography></Paper>
+                        <Paper sx={the} elevation={5}><Typography sx={{ fontSize: 'h4.fontSize' }}>A Web Developer.</Typography></Paper>
+                        <Paper sx={the} elevation={5}><Typography sx={{ fontSize: 'h5.fontSize' }}>Hello. I'm <span style={{ color: '#ce93d8' }}>Dev Parmar</span> and I have done AEC in Web Integration and Techniques from ISI, L'institut Supérieur d'Informatique - Montreal, QC. <br /><br /> I appreciate taking complex issues and transforming them into straightforward and lovely website pages. <br />I additionally love the rationale and design of coding of site coding and consistently endeavor to compose exquisite and productive code whether it be <span style={{ color: '#ce93d8' }}>Node.JS, React, Express.JS, HTML, CSS or JavaScript</span>. <br /><br />At the point when I'm not coding you'll find me playing computer games, listening music or making an espresso.</Typography></Paper>
+                    </Box>
+
                 </Box>
             </Box>
         </Fragment >
