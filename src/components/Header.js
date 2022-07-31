@@ -51,8 +51,8 @@ function Header() {
                             }
                         }}><InstagramIcon sx={sty} /></IconButton>
                     </Box>
-                    <Box sx={{ textAlign: 'center', padding: '3% 0' }} >
-                        <Button href='Resume.pdf' target='_blank' variant='contained' color='info' sx={{ fontSize: '2em', padding: '5%' }} download> Download Resume!
+                    <Box sx={{ textAlign: 'center', padding: '2% 0' }} >
+                        <Button href='Resume.pdf' target='_blank' variant='contained' color='info' sx={{ fontSize: '1.5em', padding: '4%' }} download> Download Resume!
                             <DownloadIcon sx={{ width: '2em', height: '2em' }} /></Button>
                     </Box>
 

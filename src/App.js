@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
-      {/* <Navbar /> */}
+      <Navbar />
       <Header />
       <Box id='skills' sx={{ backgroundColor: '#e0e0e0' }} >
         <Skills />
