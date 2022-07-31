@@ -4,7 +4,7 @@ import { AppBar, Toolbar, Typography, Link, Box, List, ListItem, ListItemButton,
 function Navbar() {
     return (
         <Box sx={{ display: 'flex' }}>
-            <AppBar color='secondary' elevation={0} position='static' sx={{ height: '6em' }}>
+            <AppBar color='secondary' elevation={0} position='static' sx={{ height: '6em', widhth: '100%' }}>
                 <Toolbar >
                     <List sx={{ display: 'flex', justifyContent: 'center', marginX: 'auto' }}>
                         <Link color='inherit' href='#skills' underline='none' >
