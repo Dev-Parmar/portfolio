@@ -36,7 +36,7 @@ function Projects() {
                         <Typography sx={{ margin: '2em 0' }}>
                             'ECASH' - A basic product dashboard built using React, Node.JS, Express.JS and MaterialUI. You can do Crud operations into the database using REST APIs along with Member Login and Signup.
                         </Typography>
-                        <CardActions sx={{ margin: '0.5em 1em' }}>
+                        <CardActions sx={{ margin: 'auto' }}>
                             <Button target='_blank' href='https://github.com/Dev-Parmar/ecash-frontend' variant='outlined' size='large'><Typography>FrontEnd </Typography><OpenInNewIcon /></Button>
                             <Button target='_blank' href='https://github.com/Dev-Parmar/ecash-backend' variant='outlined' size='large'><Typography>BackEnd </Typography><OpenInNewIcon /></Button>
                         </CardActions>
