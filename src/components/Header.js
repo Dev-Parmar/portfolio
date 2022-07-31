@@ -5,14 +5,16 @@ import React, { Fragment } from 'react'
 function Header() {
     return (
         <Fragment>
-            <Box sx={{ backgroundColor: '#9c27b0', width: '50%' }}>
-                <Avatar src='profile.jpg' alt='Dev Parmar' sx={{ width: '25em', height: '25em', margin: '2em 0 2em 15em', border: '2px solid red' }} />
+            <Box sx={{ backgroundColor: '#9c27b0', display: 'flex', justifyContent: 'center', flexWrap: 'wrap', padding: '5em 0' }}>
+                <Box sx={{ width: '50em' }}>
+                    <Avatar src='profile.jpg' alt='Dev Parmar' sx={{ width: '25em', height: '25em', border: '3px solid #e0e0e0', margin: 'auto' }} />
+                </Box>
+                <Box sx={{ width: '50em' }}>
+                    <Typography>Hi, I'm Dev Parmar.</Typography>
+                    <Typography>A Web Developer.</Typography>
+                </Box>
             </Box>
-            <Box sx={{ backgroundColor: '#e0e0e0', width: '50%' }}>
-                <Typography>Hi, I'm Dev Parmar.</Typography>
-                <Typography>A Web Developer.</Typography>
-            </Box>
-        </Fragment>
+        </Fragment >
     )
 }
 
