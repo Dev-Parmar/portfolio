@@ -8,17 +8,17 @@ function Contact() {
     return (
         <Fragment>
             <Box >
-                <Typography sx={{ paddingY: '1em', fontWeight: 'bold', fontSize: 'h3.fontSize', textAlign: 'center' }}>Contact Me</Typography>
+                <Typography sx={{ padding: '1.5em 0 0.5em 0', fontWeight: 'bold', fontSize: 'h2.fontSize', textAlign: 'center' }}>Contact Me</Typography>
             </Box>
-            <Box sx={{ textAlign: 'center', margin: '0.5em' }}>
-                <Typography sx={{ fontSize: '20px' }}><PhoneIcon /> +1(438)979-6172</Typography>
+            <Box sx={{ textAlign: 'center', margin: '1em' }}>
+                <Typography sx={{ fontSize: 28 }}><PhoneIcon /> +1(438)979-6172</Typography>
             </Box>
-            <Box sx={{ textAlign: 'center', margin: '0.5em' }}>
-                <Typography sx={{ fontSize: '20px' }}><EmailIcon /> devparmar22121@gmail.com</Typography>
+            <Box sx={{ textAlign: 'center', margin: '1em' }}>
+                <Typography sx={{ fontSize: 28 }}><EmailIcon /> devparmar22121@gmail.com</Typography>
             </Box>
 
             <Box sx={{ textAlign: 'center', padding: '2em' }} >
-                <Button onClick={() => window.location = 'mailto:devparmar22121@gmail.com'} variant='contained' size='large'>Send me an Email</Button>
+                <Button onClick={() => window.location = 'mailto:devparmar22121@gmail.com'} variant='contained'><Typography sx={{ fontSize: 'h5.fontSize' }}>Send me an Email</Typography></Button>
             </Box>
         </Fragment>
     )

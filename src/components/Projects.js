@@ -25,29 +25,29 @@ function Projects() {
     return (
         <Fragment>
             <Box >
-                <Typography sx={{ padding: '5% 0 2% 0', fontWeight: 'bold', fontSize: 'h3.fontSize', textAlign: 'center', color: '#fff' }}>Projects</Typography>
+                <Typography sx={{ padding: '3% 0 0 0', fontWeight: 'bold', fontSize: 'h3.fontSize', textAlign: 'center', color: '#fff' }}>Projects</Typography>
             </Box>
-            <Box sx={{ display: 'flex', justifyContent: 'space-around', flexWrap: 'wrap', margin: '0 7%', paddingBottom: '10%' }}>
+            <Box sx={{ display: 'flex', justifyContent: 'space-around', flexWrap: 'wrap', margin: '0 7%', paddingBottom: '7%' }}>
                 <Card sx={sty} elevation={5}>
                     <CardContent>
-                        <Typography sx={{ fontSize: 24, fontWeight: '500' }} gutterBottom>
+                        <Typography sx={{ fontSize: 36, fontWeight: '500' }} gutterBottom>
                             Project 1
                         </Typography>
-                        <Typography sx={{ margin: '10% 0' }}>
+                        <Typography sx={{ margin: '10% 0', fontSize: 22 }}>
                             'ECASH' - A basic product dashboard built using React, Node.JS, Express.JS and MaterialUI. You can do Crud operations into the database using REST APIs along with Member Login and Signup.
                         </Typography>
                         <CardActions sx={{ margin: 'auto' }}>
-                            <Button target='_blank' href='https://github.com/Dev-Parmar/ecash-frontend' variant='outlined' size='large'><Typography>FrontEnd </Typography><OpenInNewIcon /></Button>
+                            <Button target='_blank' href='https://github.com/Dev-Parmar/ecash-frontend' variant='outlined' size='large' ><Typography sx={{ fontSize: '24' }}>FrontEnd </Typography><OpenInNewIcon /></Button>
                             <Button target='_blank' href='https://github.com/Dev-Parmar/ecash-backend' variant='outlined' size='large'><Typography>BackEnd </Typography><OpenInNewIcon /></Button>
                         </CardActions>
                     </CardContent>
                 </Card>
                 <Card sx={sty} elevation={5}>
                     <CardContent>
-                        <Typography sx={{ fontSize: 24, fontWeight: '500' }} gutterBottom>
+                        <Typography sx={{ fontSize: 36, fontWeight: '500' }} gutterBottom>
                             Project 2
                         </Typography>
-                        <Typography sx={{ margin: '10% 0' }}>
+                        <Typography sx={{ margin: '10% 0', fontSize: 22 }}>
                             'NewsKreen' - A React App that fetches News from the NewsAPI. News can be categorized in according to the endpoints. Designing of the Virtual Newspaper is done using Material UI.
                         </Typography>
                         <CardActions>
@@ -57,10 +57,10 @@ function Projects() {
                 </Card>
                 <Card sx={sty} elevation={5}>
                     <CardContent>
-                        <Typography sx={{ fontSize: 24, fontWeight: '500' }} gutterBottom>
+                        <Typography sx={{ fontSize: 36, fontWeight: '500' }} gutterBottom>
                             Project 3
                         </Typography>
-                        <Typography sx={{ margin: '10% 0' }}>
+                        <Typography sx={{ margin: '10% 0', fontSize: 22 }}>
                             'De-Notes' - STICKY NOTES clone. One can add a note with different tags and the data is store in JSON file. The notes are further fetched from JSON-server and structed properly to show the upcoming event.
                         </Typography>
                         <CardActions>

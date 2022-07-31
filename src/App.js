@@ -5,6 +5,7 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
+import Work from './components/Work';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Skills />
       </Box>
       <Box id='projects' sx={{ backgroundColor: '#9c27b0' }}>
+        <Work />
         <Projects />
       </Box>
       <Box id='contact' sx={{ backgroundColor: '#e0e0e0' }}>
