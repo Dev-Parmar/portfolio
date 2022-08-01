@@ -7,6 +7,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import DownloadIcon from '@mui/icons-material/Download';
 import Fade from 'react-reveal/Fade';
 import Flip from 'react-reveal/Flip';
+import profile from '../profile.png'
 
 function Header() {
 
@@ -31,7 +32,8 @@ function Header() {
             <Box sx={{ backgroundColor: '#9c27b0', display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }} >
                 <Box sx={{ margin: '5%' }}>
                     <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
-                        <Avatar src='profile.jpg' alt='Dev Parmar' sx={{ width: '80%', height: '100%', border: '3px solid #e0e0e0' }} />
+
+                        <Avatar src={profile} alt='Dev Parmar' sx={{ width: '80%', height: '100%', border: '3px solid #e0e0e0' }} />
                     </Box>
                     <Box sx={{ display: 'flex', justifyContent: 'space-around', paddingY: '5%' }}>
                         <Flip top>
