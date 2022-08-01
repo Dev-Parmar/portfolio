@@ -8,7 +8,7 @@ import DownloadIcon from '@mui/icons-material/Download';
 import Fade from 'react-reveal/Fade';
 import Flip from 'react-reveal/Flip';
 import profile from '../profile.png'
-import resume from '../Dev-Parmar Resume.pdf'
+import resume from '../Dev-Parmar-Resume.pdf'
 
 function Header() {
 
