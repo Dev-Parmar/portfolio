@@ -1,16 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.6669fc85.css",
-    "main.js": "/portfolio/static/js/main.13d0acba.js",
+    "main.js": "/portfolio/static/js/main.25dfb192.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/profile.png": "/portfolio/static/media/profile.87f87b666aa8696ac71a.png",
+    "static/media/Dev-Parmar Resume.pdf": "/portfolio/static/media/Dev-Parmar Resume.e4b49cf8748ba39a314c.pdf",
     "index.html": "/portfolio/index.html",
     "main.6669fc85.css.map": "/portfolio/static/css/main.6669fc85.css.map",
-    "main.13d0acba.js.map": "/portfolio/static/js/main.13d0acba.js.map",
+    "main.25dfb192.js.map": "/portfolio/static/js/main.25dfb192.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6669fc85.css",
-    "static/js/main.13d0acba.js"
+    "static/js/main.25dfb192.js"
   ]
 }
