@@ -64,7 +64,7 @@ function Header() {
                         </Flip>
                     </Box>
                     <Box sx={{ textAlign: 'center', padding: '2% 0' }} >
-                        <Button href='Resume.pdf' target='_blank' variant='contained' color='info' sx={{ fontSize: '1.5em', padding: '4%' }} download> Download Resume!
+                        <Button href='Dev-Parmar Resume.pdf' target='_blank' variant='contained' color='info' sx={{ fontSize: '1.5em', padding: '4%' }} download> Download Resume!
                             <DownloadIcon sx={{ width: '2em', height: '2em' }} /></Button>
                     </Box>
 
