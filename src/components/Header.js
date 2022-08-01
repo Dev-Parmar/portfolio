@@ -8,6 +8,7 @@ import DownloadIcon from '@mui/icons-material/Download';
 import Fade from 'react-reveal/Fade';
 import Flip from 'react-reveal/Flip';
 import profile from '../profile.png'
+import resume from '../Dev-Parmar Resume.pdf'
 
 function Header() {
 
@@ -64,7 +65,7 @@ function Header() {
                         </Flip>
                     </Box>
                     <Box sx={{ textAlign: 'center', padding: '2% 0' }} >
-                        <Button href='Dev-Parmar Resume.pdf' target='_blank' variant='contained' color='info' sx={{ fontSize: '1.5em', padding: '4%' }} download> Download Resume!
+                        <Button href={resume} target='_blank' variant='contained' color='info' sx={{ fontSize: '1.5em', padding: '4%' }} download> Download Resume!
                             <DownloadIcon sx={{ width: '2em', height: '2em' }} /></Button>
                     </Box>
 
