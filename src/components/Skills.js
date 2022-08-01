@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade';
 
 function Skills() {
 
-    const skills = ['HTML', 'CSS', 'JavaScript (ES6)', 'Node.JS', 'React', 'Express.JS', 'MongoDB', 'REST APIs', 'MaterialUI', 'BootStrap', 'GIT', 'Docker']
+    const skills = ['HTML', 'CSS', 'JavaScript (ES6)', 'Node.JS', 'React', 'Express.JS', 'GraphQL', 'MongoDB', 'MySQL', 'REST APIs', 'MaterialUI', 'BootStrap', 'GIT', 'Docker']
 
     return (
         <Fragment>
