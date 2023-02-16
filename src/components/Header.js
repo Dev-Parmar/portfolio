@@ -7,6 +7,8 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import DownloadIcon from '@mui/icons-material/Download';
 import Fade from 'react-reveal/Fade';
 import Flip from 'react-reveal/Flip';
+import profile from '../profile.png'
+import resume from '../Dev-Parmar-Resume.pdf'
 
 function Header() {
 
@@ -31,8 +33,7 @@ function Header() {
             <Box sx={{ backgroundColor: '#9c27b0', display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }} >
                 <Box sx={{ margin: '5%' }}>
                     <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
-
-                        <Avatar src='/static/profile.png' alt='Dev Parmar' sx={{ width: '80%', height: '100%', border: '3px solid #e0e0e0' }} />
+                        <Avatar src='profile.jpg' alt='Dev Parmar' sx={{ width: '80%', height: '100%', border: '3px solid #e0e0e0' }} />
                     </Box>
                     <Box sx={{ display: 'flex', justifyContent: 'space-around', paddingY: '5%' }}>
                         <Flip top>
@@ -63,7 +64,7 @@ function Header() {
                         </Flip>
                     </Box>
                     <Box sx={{ textAlign: 'center', padding: '2% 0' }} >
-                        <Button href='Resume.pdf' target='_blank' variant='contained' color='info' sx={{ fontSize: '1.5em', padding: '4%' }} download> Download Resume!
+                        <Button href={resume} target='_blank' variant='contained' color='info' sx={{ fontSize: '1.5em', padding: '4%' }} download> Download Resume!
                             <DownloadIcon sx={{ width: '2em', height: '2em' }} /></Button>
                     </Box>
 

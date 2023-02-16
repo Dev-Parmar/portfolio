@@ -36,7 +36,7 @@ function Projects() {
                                 Project 1
                             </Typography>
                             <Typography sx={{ margin: '10% 0', fontSize: 22 }}>
-                                'Samurai Pizza Cats' - A Full stack React App that uses GraphQL to perform operations like create and modify pizza and its toppings.
+                                'ECASH' - A basic product dashboard built using React, Node.JS, Express.JS and MaterialUI. You can do Crud operations into the database using REST APIs along with Member Login and Signup.
                             </Typography>
                             <CardActions>
                                 <Button sx={{ margin: 'auto' }} variant='outlined' size='large' href='https://github.com/Dev-Parmar/Samurai-Pizza-Cats' target='_blank'><Typography>Visit Project </Typography><OpenInNewIcon /></Button>
