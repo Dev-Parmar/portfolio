@@ -33,10 +33,10 @@ function Projects() {
                     <Card sx={sty} elevation={5}>
                         <CardContent>
                             <Typography sx={{ fontSize: 36, fontWeight: '500' }} gutterBottom>
-                                Project 1
+                                Samurai Pizza Cats
                             </Typography>
                             <Typography sx={{ margin: '10% 0', fontSize: 22 }}>
-                                'ECASH' - A basic product dashboard built using React, Node.JS, Express.JS and MaterialUI. You can do Crud operations into the database using REST APIs along with Member Login and Signup.
+                                A full stack web app built using React, Node, GraphQL and MaterialUi. One can create and update pizzas and its toppings which are connected to the database using GraphQL.
                             </Typography>
                             <CardActions>
                                 <Button sx={{ margin: 'auto' }} variant='outlined' size='large' href='https://github.com/Dev-Parmar/Samurai-Pizza-Cats' target='_blank'><Typography>Visit Project </Typography><OpenInNewIcon /></Button>
@@ -48,10 +48,10 @@ function Projects() {
                     <Card sx={sty} elevation={5}>
                         <CardContent>
                             <Typography sx={{ fontSize: 36, fontWeight: '500' }} gutterBottom>
-                                Project 2
+                                E-Cash
                             </Typography>
                             <Typography sx={{ margin: '10% 0', fontSize: 22 }}>
-                                'ECASH' - A basic product dashboard built using React, Node.JS, Express.JS and MaterialUI. You can do Crud operations into the database using REST APIs along with Member Login and Signup.
+                                A basic product dashboard built using React, Node.JS, Express.JS and MaterialUI. You can do Crud operations into the database using REST APIs along with Member Login and Signup.
                             </Typography>
                             <CardActions sx={{ margin: 'auto' }}>
                                 <Button target='_blank' href='https://github.com/Dev-Parmar/ecash-frontend' variant='outlined' size='large' ><Typography sx={{ fontSize: '24' }}>FrontEnd </Typography><OpenInNewIcon /></Button>

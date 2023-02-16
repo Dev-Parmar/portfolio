@@ -33,7 +33,7 @@ function Header() {
             <Box sx={{ backgroundColor: '#9c27b0', display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }} >
                 <Box sx={{ margin: '5%' }}>
                     <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
-                        <Avatar src='profile.jpg' alt='Dev Parmar' sx={{ width: '80%', height: '100%', border: '3px solid #e0e0e0' }} />
+                        <Avatar src={profile} alt='Dev Parmar' sx={{ width: '80%', height: '100%', border: '3px solid #e0e0e0' }} />
                     </Box>
                     <Box sx={{ display: 'flex', justifyContent: 'space-around', paddingY: '5%' }}>
                         <Flip top>
@@ -55,7 +55,7 @@ function Header() {
 
                         </Flip>
                         <Flip top>
-                            <IconButton href='https://www.instagram.com/devparmar22' target='_blank' sx={{
+                            <IconButton href='https://www.instagram.com/ezdevth' target='_blank' sx={{
                                 "&:hover": {
                                     boxShadow: '-1px 10px 29px 0px rgba(0,0,0,0.8)',
                                     backgroundColor: '#ce93d8'
@@ -77,7 +77,7 @@ function Header() {
 
                             <Paper sx={the} elevation={5}><Typography sx={{ fontSize: 'h4.fontSize' }}>A Web Developer.</Typography></Paper>
 
-                            <Paper sx={the} elevation={5}><Typography sx={{ fontSize: 'h5.fontSize' }}>Hello. I'm <span style={{ color: '#ce93d8' }}>Dev Parmar</span> and I have done AEC in Web Integration and Techniques from ISI, L'institut Supérieur d'Informatique - Montreal, QC. <br /><br /> I appreciate taking complex issues and transforming them into straightforward and lovely website pages. <br />I additionally love the rationale and design of coding of site coding and consistently endeavor to compose exquisite and productive code whether it be <span style={{ color: '#ce93d8' }}>Node.JS, React, GraphQL, MaterialUI Express.JS, HTML, CSS or JavaScript</span>. <br /><br />At the point when I'm not coding you'll find me playing computer games, listening music or making an espresso.</Typography></Paper>
+                            <Paper sx={the} elevation={5}><Typography sx={{ fontSize: 'h5.fontSize' }}>Hello. I'm <span style={{ color: '#ce93d8' }}>Dev Parmar</span> and I have done AEC in Web Integration and Techniques from ISI, L'institut Supérieur d'Informatique - Montreal, QC. <br /><br /> I appreciate taking complex issues and transforming them into straightforward and lovely website pages. <br />I additionally love the rationale and design of coding of site coding and consistently endeavor to compose exquisite and productive code whether it be <span style={{ color: '#ce93d8' }}>Node.JS, React, GraphQL, MaterialUI, Express.JS, HTML, CSS or JavaScript</span>. <br /><br />At the point when I'm not coding you'll find me playing computer games, listening music or making an espresso.</Typography></Paper>
 
                         </Box>
                     </Fade>
